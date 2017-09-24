@@ -1,7 +1,7 @@
 
 # Quiet
-**The Power of Introverts in a world that can't stop talking  
-by Susan Cain**
+**The Power of Introverts in a world that can't stop talking**  
+by **_Susan Cain_**
 
 
 ## Introduction
