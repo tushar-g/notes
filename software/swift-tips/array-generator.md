@@ -72,8 +72,8 @@ extension Int {
 ```swift
 extension Int {
     /// Returns n constructed instances of this type
-    public static func * <T: Constructible>(
-        count: Int, this: T.Type) -> [T] {
+    public static func * <T: Constructible>(count: Int,
+                                            this: T.Type) -> [T] {
         return count.of(this)
     }
 }
@@ -101,14 +101,15 @@ Array(randomSequence.prefix(5))
 * An `Array` is constructed using an Interator and a generator.
 * First few items are picked using prefix.
 * prefix is method inside `AnyIterator` which spits out `AnySequence` up to the specified maximum length, containing the initial elements of the sequence.
+* Similarly one can generate 5 UILabel views using `UILabel.init`
 
 ```swift
 Array(AnyIterator(UILabel.init).prefix(5))
 ```
-* Similarly one can generate 5 UILabel views using `UILabel.init`
+
 
 ##### Using Initializers
-* Array has a lot of built in Initializers. e.g:
+* `Swift.Array` has a lot of built in Initializers. e.g:
 
 ```swift
 /// Creates a new array containing the specified number of a single, repeated value.
@@ -132,9 +133,7 @@ public extension Array {
     /// - Parameters:
     ///   - count: The number of times to apply the closure. `count` must be zero or greater.
     ///   - generator: The closure to execute
-    public init(count: Int,
-                generator: @escaping () -> Element)
-    {
+    public init(count: Int, generator: @escaping () -> Element) {
         precondition(count >= 0, "Cannot initialize array with negative count")
         self.init(AnyIterator(generator).prefix(count))
     }
@@ -153,3 +152,5 @@ let numbers = Array(count: 5, generator: randomNumberGenerator)
 // or
 let numbers = Array(count: 5) { randomNumber }
 ```
+
+### Yay! Swift is Super Flexible.
