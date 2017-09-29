@@ -6,15 +6,15 @@ by **_Susan Cain_**
 
 ## Introduction
 
-1. Our lives are shaped by personality as much as byb gender or race.
-2. Single most important aspect of Personality is where we fall on the introvert-extrovert spectrum.(Ofcourse, accroding to a scientist.)
+1. Our lives are shaped by personality as much as by gender or race.
+2. Single most important aspect of Personality is where we fall on the introvert-extrovert spectrum.
 3. Introversion and Extroversion are two of the most exhaustively researched topics in personality psychology.
-4. We are told to be great is to be bold, to be happy is to be sociable. We see ourselves as a nation of extroverts--which means we have lost sight of who we really are.
+4. We are told, to be great is to be bold, to be happy is to be sociable. We see ourselves as a nation of extroverts--which means we have lost sight of who we really are.
 5. We live with a value system called Extrovert Ideal. The ideal self is gregarious, alpha and comfortable in spotlight.
 	* This ideal prefers action to contemplation, risk-taking to heed-taking, certainty to doubt. 
 	* Prefers quick decisions, even at the risk of being wrong.
 	* Works well in teams and socializes easily in groups.
-6. We say we prefer individualism, but we mostly prefers only one type of Individual, the Ideal self - the one who is comfortable putting self out there. 
+6. We say we prefer individualism, but we mostly prefer only one type of Individual, the Ideal self - the one who is comfortable putting oneself out there. 
 7. Introversion--along with it's cousins sensitivity, seriousness, and shyness--is now a sencond-class personality trait.
 8. Introverts living under the Extrovert Ideal are like woman in man's world.
 9. Extroversion is an enormously appealing personality style, but we have turned it into an oppressive standard to which most of us feel, we must conform.
@@ -22,9 +22,9 @@ by **_Susan Cain_**
 11. There is no corelation between gift of the gab and good ideas.
 12. In 1921, a psychologist Carl Jung, popularized the terms _Introvert_ & _Extrovert_.
 	* Introverts are drawn to the inner world of thought and feeling; Extroverts to the external life of people and activities. 
-	* Introverts focus on the meaning they make of the evetns swirling around them; Extroverts lunge into events themselves.
+	* Introverts focus on the meaning they make of the events swirling around them; Extroverts lunge into events themselves.
 	* Introverts recharge their batteries by being alone; Extroverts need to recharge when they don't socialize enough.
-13. Many psychologists tend to agree on Introverts and Extroverts differing in the level of outside stimulation that they need to function well.
+13. Many psychologists tend to agree on Introverts and Extroverts differing on the level of outside stimulation that they need to function well.
 	* Introverts feel "just right" with less stimulation like reading a book, sipping wine with a close friend, solve a crossword puzzle. 
 	* Extroverts on the other hand enjoy the extra bang that comes from activities like meeting new people, skiing slippery slopes and cranking up the stereo.
 14. Psychologists also agree on Introverts and Extroverts working differently. Extroverts tend to tackle assignments quickly. Introverts often work more slowly and deliberately.
