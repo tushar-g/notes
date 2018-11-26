@@ -18,7 +18,8 @@ stampsUntyped.add(new Coin())
 private final Collection<Stamp> stampsTyped = ... ;
 
 // Compilation Error
-stampsTyped.add(new Coin())                    ^
+stampsTyped.add(new Coin())                    
+                    ^
 ```
 
 It is easy to imagine someone putting a `java.util.Date` instance into a collection that is supposed to contain only `java.sql.Date` instances. Parametrized types would prevent this at compile time.
@@ -42,14 +43,26 @@ Sometimes it makes sense to use raw types when type information is not needed. f
 
 ```java
 // Use of raw type for unknown element type - don't do this!
-static int numElementsInCommon(Set s1, Set s2) {   int result = 0;   for (Object o1 : s1)       if (s2.contains(o1))           result++;   return result;-}
+static int numElementsInCommon(Set s1, Set s2) {
+   int result = 0;
+   for (Object o1 : s1)
+       if (s2.contains(o1))
+           result++;
+   return result;-
+}
 ```
 
 Here usage of raw types is dangerous. Instead we should use unbounded wild card type:
 
 ```java
 // Unbounded wildcard type - typesafe and flexible
-static int numElementsInCommon(Set<?> s1, Set<?> s2) {   int result = 0;   for (Object o1 : s1)       if (s2.contains(o1))           result++;   return result;}
+static int numElementsInCommon(Set<?> s1, Set<?> s2) {
+   int result = 0;
+   for (Object o1 : s1)
+       if (s2.contains(o1))
+           result++;
+   return result;
+}
 ```
 
 **What does this question mark (Unbounded Wild Card Type) buys us?**   
@@ -161,7 +174,7 @@ static void compareDogs(Comparator<Dog> comparator) {
 }
 
 Comparator<Animal> troubleMakerComparator = Comparator.comparingInt(a -> a.troubleMakerRating);
-compareMyPetDogs(troubleMakerComparator); // Compilation ERROR !! Incompatible Types
+compareDogs(troubleMakerComparator); // Compilation ERROR !! Incompatible Types
 
 ```
 
