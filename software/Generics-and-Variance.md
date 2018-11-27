@@ -150,12 +150,12 @@ void printNames(Collection<Animal> animals) {
     animals.forEach(System.out::println);
 }
 
-List<Dog> myPets = new ArrayList<>();
-dogs.add(new Dog("German Shepherd"));
-dogs.add(new Dog("Bulldog"));
-dogs.add(new Dog("Pug"));
+List<Dog> myDogs = new ArrayList<>();
+myDogs.add(new Dog("German Shepherd"));
+myDogs.add(new Dog("Bulldog"));
+myDogs.add(new Dog("Pug"));
 
-printNames(myPets); // Compilation ERROR !! Incompatible Types
+printNames(myDogs); // Compilation ERROR !! Incompatible Types
 
 ```
 This does not compile. Even though we are not writing anything to the `Iterable<Animal>`, we are only accessing (reading) from the collection.
